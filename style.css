@@ -1,15 +1,15 @@
 * { margin: 0; padding: 0; }
 body { background-color: hsl(0, 0%, 8%); color: hsl(0, 0%, 100%); font-family: "Inter", sans-serif; min-height: 100svh; display: flex; align-items: center; flex-direction: column; justify-content: center; }
-.card { max-width: 25%; margin: 0 auto; text-align: center; padding: 2rem; padding-bottom: 1rem; background-color: hsl(0, 0%, 12%); border-radius: 1rem; }
+.card { max-width: 25%; margin: 0 auto; text-align: center; padding: 2rem; padding-bottom: 1rem; background-color: hsl(0, 0%, 12%); border-radius: 1rem; font-size: 1rem; }
 img { max-width: 30%; border-radius: 50%; }
-h2 { font-size: 1.5rem; font-weight: 400; margin: 10px 0px; }
-h2 ~ p { color: hsl(75, 94%, 57%); font-weight: 600; margin-bottom: 30px; }
-#quote p { margin-bottom: 30px; }
-button { width: 100%; padding: 0.8rem; background-color: hsl(0, 0%, 20%); color: hsl(0, 0%, 100%); border: none; margin-bottom: 1rem; font-weight: 800; border-radius: 10px; font-size: 1rem; transition: color 0.3s ease; }
+h1 { font-weight: 400; margin: 10px 0px; }
+h2 { font-size: 1rem; color: hsl(75, 94%, 57%); }
+h2 ~ p {  font-weight: 600; margin: 20px 0px; }
+button { width: 100%; padding: 0.8rem 0; background-color: hsl(0, 0%, 20%); color: hsl(0, 0%, 100%); border: none; margin-bottom: 1rem; font-weight: 800; border-radius: 10px; transition: color 0.3s ease; }
 button a { text-decoration: none; }
 button:hover { background-color: hsl(75, 94%, 57%); cursor: pointer; color: hsl(0, 0%, 20%); }
 hr {width: 25%; border: 1px solid hsla(0, 0%, 100%, 0.234); margin: 1.5rem auto; }
-.attribution p { font-size: 0.9rem; font-style: italic; text-align: center; }
+.attribution p { font-size: 14px; font-style: italic; text-align: center; }
 .attribution a { color: hsl(75, 94%, 57%); text-decoration: none; }
 .attribution a:hover { color: coral; border-bottom: 1px solid coral; } 
 /* Responsiveness */
