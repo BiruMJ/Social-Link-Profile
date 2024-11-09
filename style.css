@@ -15,8 +15,8 @@ hr {width: 25%; border: 1px solid hsla(0, 0%, 100%, 0.234); margin: 1.5rem auto;
 /* Responsiveness */
 /* Mobile */
 @media (min-width: 300px) and (max-width: 500px) {
-    body { padding: 0px 15px; }
-    .card {max-width: 80%; }
+    body { padding: 0px 20px; }
+    .card {max-width: 80%; padding: 1.5rem; padding-bottom: 0.5rem; }
     hr { width: 80%; }
     button { width: 100%; padding: 14px; }
 }
