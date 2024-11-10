@@ -25,8 +25,8 @@ The challenge is to make your own Social Link Profile Landing Page. This challen
 
 ### Links
 
-- Solution URL: [Add solution URL here](http://127.0.0.1:3000/Basics%20HTML%20&%20CSS/Social%20Link%20Profile/social-links-profile-main/index.html)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [http://127.0.0.1:3000/Basics%20HTML%20&%20CSS/Social%20Link%20Profile/social-links-profile-main/index.html]
+- Live Site URL: [https://birumj.github.io/Social-Link-Profile/]
 
 ## My process
 (1) Write HTML code first.
