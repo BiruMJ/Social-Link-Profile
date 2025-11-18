@@ -1,35 +1,108 @@
-* { margin: 0; padding: 0; }
-body { background-color: hsl(0, 0%, 8%); color: hsl(0, 0%, 100%); font-family: "Inter", sans-serif; min-height: 100svh; display: flex; align-items: center; flex-direction: column; justify-content: center; }
-.card { max-width: 25%; margin: 0 auto; text-align: center; padding: 2rem; padding-bottom: 1rem; background-color: hsl(0, 0%, 12%); border-radius: 1rem; font-size: 1rem; }
-img { max-width: 30%; border-radius: 50%; }
-h1 { font-weight: 400; margin: 10px 0px; }
-h2 { font-size: 1rem; color: hsl(75, 94%, 57%); }
-h2 ~ p {  font-weight: 600; margin: 30px 0px 25px; }
-button { width: 100%; padding: 0.8rem 0; background-color: hsl(0, 0%, 20%); color: hsl(0, 0%, 100%); border: none; margin-bottom: 1rem; font-weight: 800; border-radius: 10px; transition: color 0.3s ease; }
-button a { text-decoration: none; }
-button:hover { background-color: hsl(75, 94%, 57%); cursor: pointer; color: hsl(0, 0%, 20%); }
-hr {width: 25%; border: 1px solid hsla(0, 0%, 100%, 0.234); margin: 1.5rem auto; }
-.attribution p { font-size: 14px; font-style: italic; text-align: center; }
-.attribution a { color: hsl(75, 94%, 57%); text-decoration: none; }
-.attribution a:hover { color: coral; border-bottom: 1px solid coral; } 
-/* Responsiveness */
-/* Mobile */
-@media (min-width: 300px) and (max-width: 500px) {
-    body { padding: 0px 20px; }
-    .card {max-width: 80%; padding: 1.5rem; padding-bottom: 0.5rem; }
-    hr { width: 80%; }
-    button { width: 100%; padding: 14px; }
+* {
+    margin: 0;
+    padding: 0;
 }
-/* Tablet */
-@media (min-width: 500px) and (max-width: 1024px) {
-    body { padding: 20px 20px; }
-    .card  {max-width: 60%; }
-    hr {width: 60%; }
-    button { width: 100%; }
+
+body {
+    background-color: hsl(0, 0%, 8%);
+    color: hsl(0, 0%, 100%);
+    font-family: "Inter", sans-serif;
+    min-height: 100svh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
-/* Laptop */
-@media (min-width: 1024px) and (max-width: 1473px) {
-    .card { max-width: 30%; }
-    hr { width: 30%; }
-    button { width: 100%; }
+
+.card {
+    width: 80%;
+    max-width: 320px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 1.5rem;
+    padding-bottom: 0.5rem;
+    background-color: hsl(0, 0%, 12%);
+    border-radius: 15px;
+}
+
+img {
+    width: 80px;
+    border-radius: 50%;
+}
+
+h1 {
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin: 10px 0px;
+}
+
+h2 {
+    font-size: 1rem;
+    color: hsl(75, 94%, 57%);
+}
+
+h2~p {
+    margin: 25px 0;
+    font-size: 0.8rem;
+}
+
+button {
+    width: 100%;
+    padding: 0.8rem 0;
+    background-color: hsl(0, 0%, 20%);
+    color: hsl(0, 0%, 100%);
+    border: none;
+    margin-bottom: 1rem;
+    font-weight: 700;
+    border-radius: 8px;
+    transition: background-color 0.2s ease;
+}
+
+button a {
+    text-decoration: none;
+}
+
+button:hover {
+    background-color: hsl(75, 94%, 57%);
+    cursor: pointer;
+    font-weight: 700;
+    color: hsl(0, 0%, 20%);
+}
+
+hr {
+    width: 50%;
+    border: 1px solid hsla(0, 0%, 100%, 0.234);
+    margin: 1.5rem auto;
+}
+
+.attribution p {
+    font-size: 12px;
+    font-style: italic;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(75, 94%, 57%);
+    text-decoration: none;
+}
+
+.attribution a:hover {
+    color: #fff;
+    border-bottom: 1px solid #fff;
+    transition: color 0.2s ease;
+}
+.attribution a:active {
+    color: hsl(75, 94%, 57%);
+}
+
+@media (min-width: 768px) {
+    .card {
+        padding: 2.5rem;
+    }
+    h2~p {
+        font-size: 1rem;
+    }
+    button {
+        font-size: 0.9rem;
+    }
 }
